@@ -21,6 +21,6 @@ public class ExplicitIntentActivity extends AppCompatActivity {
     }
 
     public void handleSubmit(View view) {
-
+        outputText.setText(String.format("Hello %s, Congratulations", nameInput.getText().toString()));
     }
 }
